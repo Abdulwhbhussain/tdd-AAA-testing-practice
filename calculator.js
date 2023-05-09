@@ -1,23 +1,20 @@
 // Task 3 Calculator Add Remove Multiply and Divide
 
 const Calculator = {
-  x: 6,
-  y: 8,
-
-  add() {
-    return this.x + this.y;
+  add(x, y) {
+    return x + y;
   },
 
-  subtract() {
-    return this.x - this.y;
+  subtract(x, y) {
+    return x - y;
   },
 
-  multiply() {
-    return this.x * this.y;
+  multiply(x, y) {
+    return x * y;
   },
 
-  divide() {
-    return this.x / this.y;
+  divide(x, y) {
+    return x / y;
   }
 };
 
